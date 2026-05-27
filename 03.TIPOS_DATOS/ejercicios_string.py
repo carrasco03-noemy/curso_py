@@ -13,4 +13,4 @@ print("POLITICOS" if pensamiento_uno.find(palabra_buscar)>0 else "texto no encon
 
 pensamiento_dos:str="YO YA NO VIVO EN TRUJILIO,VIVO EN PERU"
 print(pensamiento_dos)
-print(pensamiento_dos.replace("PERU","NARNIA"))
+print(pensamiento_dos.replace("PERU","NARNIA")) 
