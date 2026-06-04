@@ -13,7 +13,7 @@ python nos permite acceder a estas listas a travez de indices, los indices son a
 para crear listas solo hasta encerrar los elementos que deseamos alamcenar con `[]` inmediatamente despues del operador de asignacion `=`
 ```python
 # Creando una LISTA VACIA
-listas:list=[] # lista vacia
+listas:list=[] # lista vacia # list anotacion indica que tipo de dato va almacenar 
 # LISTA NUMERICA
 # OJO: Los elementos de una lista  se separa por comas  
 lista_numerica:list[int]=[3,8,4]
@@ -28,16 +28,17 @@ para poder accerder a un elemento de la lista trabajamos con los indices que pyt
 - los indices positivos (comienzan de 0 y van de izquierda a derecha)
 -  los indices negativos (comienzan de -1 y van de derecha a izquierda)
 con estos indices podemos acceder al valor del elemento y tambien podremos modificarlos.
-- por indice (posicion)
-- por rango (slicing)
-
+- Aceder y modificar por indice (posicion)
 ```python
+## aceder a elemetos
 frutas:list[str]=[🍎,🍊,🍒]
 # posicion o indice
 # ACCEDER AL TERCER ELEMENTO
 print(frutas[2])
 # ACCEDER AL 2 ELEMENTO POR SU INDICE NEGATIVO
 print(frutas[-3])
+# Modificar
+frutas[3]=
 # ACCEDER POR RANGO
 print(frutas[0:2])
 # DESDE LA POSICION 1 HASTA LA 3
@@ -46,6 +47,17 @@ print(frutas[1:3])
 print(frutas[:2])
 # DESDE LA POSICION 1 HASTA EL FINAL
 print(frutas[1:])
+```
+- Acceder y modificar por rango (slicing)
+```python
+Vocales:str['a','e','i','o','u']
+#ACCEDER A ELEMENTOS POR SLICING
+# esta tecnica nos permite acceder a mas de un elemento en una sola linia de codigo
+Vocales[0:3]
+
+##REMPLAZAR  ELEMENTO POR SLICING
+vocales[0:3]=['A','E','I']
+
 ```
 
 ## DICCIONARIO

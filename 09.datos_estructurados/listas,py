@@ -1,2 +1,0 @@
-lista_vacia:list=[]
-print(len(lista_vacia))
