@@ -6,15 +6,16 @@
 3. MODIFICAR EL ELEMTO 8 POR GUIANFRANCO
 4. MOSTRAR TODA LA LISTA NUEVA CON LAS MODIFICACIONES
 """
-animales = ["perro", "araña", "gato", "pulpo", "caballo","medusa", "pez", "hormiga", "rana", "estrella de mar"]
+animales = ["perro", "araña", "gato", "pulpo", "caballo","medusa", 
+"pez", "hormiga", "rana", "estrella de mar"]
 # 1
 animales[0] = "águila"
 animales[1] = "loro"
 animales[2] = "paloma"
 # 2
 animales[5] = "serpiente"
-# 3
 animales[-1] = "cocodrilo"
 # 4
 animales[7] = "gianfranco"
-print(animales)
+
+print(f"mi lista modificada es:{animales}")
