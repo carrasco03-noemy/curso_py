@@ -1,5 +1,5 @@
-# este tipo de dato sirbe para almacenar informacion de tipo texto, puede ser texto simple como o texto intenso.
-# para almacenar un texto de tipo texto la informacion devera estar enserrada entre comillas ("",'',"""""").
+# 📎este tipo de dato sirbe para almacenar informacion de tipo texto, puede ser texto simple como o texto intenso.
+# 🗂️para almacenar un texto de tipo texto la informacion devera estar enserrada entre comillas ("",'',"""""").
 ## - comillas doble ("")
 ## - comillas simple ('')
 ## - docstring ("""""",'''''')
@@ -13,7 +13,7 @@ educativo con 6 horas semanales y aprendera a programar en el lenguaje
 "python"
 """
 
-## los string tienen fuunciones basicas para poder interactuar con los datos que estamos almacenando
+##📎 los string tienen fuunciones basicas para poder interactuar con los datos que estamos almacenando
 ## la estructura de una funcion es la siguiente 
 ## nombre_funcion(argumento)
 ## *argumento - es un valor que se le pasa a una funcion , funcion que en base a su programacion retornara a otro valor distinto al pasado por el argumento

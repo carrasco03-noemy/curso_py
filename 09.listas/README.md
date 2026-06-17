@@ -14,7 +14,7 @@ se puede tener:
 
 python nos permite acceder a estas listas a travez de indices, los indices son ascendentes empesando del numero 0.
 
-### CREACION DE LISTAS 
+### 🪄📜 CREACION DE LISTAS 
 
 para crear listas solo hasta encerrar los elementos que deseamos alamcenar con `[]` inmediatamente despues del operador de asignacion `=`
 
@@ -32,14 +32,14 @@ amigos:list[str]=['eduardo','kevin']
 lista_mixta: list=['pedro',20,false,1.67]
 ```
 
-## ACCEDER Y MODIFICAR ELEMENTOS DE UNA LISTA
+## 🔍🗳️ACCEDER Y MODIFICAR ELEMENTOS DE UNA LISTA
 
 para poder accerder a un elemento de la lista trabajamos con los indices que python le asigna a cada elemento que tenemos:
 
 - los indices positivos (comienzan de 0 y van de izquierda a derecha)
 - los indices negativos (comienzan de -1 y van de derecha a izquierda)
 con estos indices podemos acceder al valor del elemento y tambien podremos modificarlos.
-- Aceder y modificar por indice (posicion)
+- 🔍Acceder y modificar por indice (posicion)
 
 ```python
 ## aceder a elemetos
@@ -49,7 +49,7 @@ frutas:list[str]=[🍎,🍊,🍒]
 print(frutas[2])
 # ACCEDER AL 2 ELEMENTO POR SU INDICE NEGATIVO
 print(frutas[-3])
-# ♠Modificar
+# Modificar
 frutas[3]=
 # ACCEDER POR RANGO
 print(frutas[0:2])
@@ -61,7 +61,7 @@ print(frutas[:2])
 print(frutas[1:])
 ```
 
-- Acceder y modificar por rango (slicing)
+- 🔍 Acceder y modificar por rango (slicing)
 
 ```python
 Vocales:str['a','e','i','o','u']
@@ -73,7 +73,7 @@ Vocales[0:3]
 vocales[0:3]=['A','E','I']
 ```
 
-## METODOS PARA LISTAS
+##  💡 METODOS PARA LISTAS
 Un metodo una accion que puedo realizar en una lista ,los metodos por lo general se utilizan des pues de la variable y se accede al metodo atraves de un punto.
 Los metodos mas comunes son aquellos qu nos permite agregar,modificar y eliminar
 ```python
@@ -84,9 +84,9 @@ Los metodos mas comunes son aquellos qu nos permite agregar,modificar y eliminar
 print()
 input()
 int()
--- trabajan por si solas 
---metodos
---. append pero depende de alguien
+- trabajan por si solas 
+- metodos
+- append pero depende de alguien
 animales:list[str]=[]
 animales.append("leon")
 animales.append("gato")
@@ -112,7 +112,7 @@ vocales.pop()
 vocales.pop(3)
 # en este caso eliminara el elemento que se encuentre en la posicion 3
 
-# BUSCAR
+# 🔍🧐 BUSCAR
 ## este metodo permite ubicar a travez del valor el primer elemento(la primera coincidencia)dentro de una lista,y devolvera el indice de ese valor,este metodo es INDEX
 Amantes:list[str]=['chapo','cristian','emerson','victor']
 # QUIERO UBICAR SI EN MI LISTA DE INFIELES EXISTE VITOR
@@ -120,7 +120,4 @@ buscar:int=Amantes.index("victor") # va retornar un indice si existe 3
 Amantes[buscar] # victor
 ## busqueda por pertenencia
 existe:bool="chapo" in Amantes
-
 ```
-
-## DICCIONARIO
