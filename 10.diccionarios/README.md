@@ -98,6 +98,7 @@ tienda.CLEAR()
 
 # Boleta de compra
 
+```python
 productos = {
     "Laptop": 3500,
     "Mouse": 80,
@@ -123,6 +124,7 @@ Teclado    S/ 250
 Audífonos  S/ 180
 
 TOTAL:    S/ 4010
+```
 
 ## ¿Qué hace el código?
 
@@ -130,7 +132,9 @@ TOTAL:    S/ 4010
 2. f"{producto:10}" → alinea el texto a 10 espacios para que se vea ordenado
 3. total += precio → va sumando todos los precios
 
+```python
 Variación rápida: Si solo quieres los productos caros > S/200:
 for producto, precio in productos.items():
     if precio > 200:
         print(f"{producto} es caro: S/ {precio}")
+```
