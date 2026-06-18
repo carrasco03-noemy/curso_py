@@ -92,3 +92,45 @@ el_eliminado=tienda.POP("RUC")
 
 #Para limpiar todo el diccionario
 tienda.CLEAR()
+```
+
+## RECORRER UN DICCIONARIO
+
+# Boleta de compra
+
+productos = {
+    "Laptop": 3500,
+    "Mouse": 80,
+    "Teclado": 250,
+    "Audífonos": 180
+}
+
+total = 0
+print(" BOLETA")
+
+Recorremos clave + valor con .items()
+for producto, precio in productos.items():
+    print(f"{producto:10} S/ {precio}")
+    total += precio
+
+print("-" * 20)
+print(f"TOTAL:    S/ {total}")
+Salida:
+--- BOLETA ---
+Laptop     S/ 3500
+Mouse      S/ 80
+Teclado    S/ 250
+Audífonos  S/ 180
+
+TOTAL:    S/ 4010
+
+## ¿Qué hace el código?
+
+1. for producto, precio in productos.items() → saca la clave y el valor en cada vuelta
+2. f"{producto:10}" → alinea el texto a 10 espacios para que se vea ordenado
+3. total += precio → va sumando todos los precios
+
+Variación rápida: Si solo quieres los productos caros > S/200:
+for producto, precio in productos.items():
+    if precio > 200:
+        print(f"{producto} es caro: S/ {precio}")
